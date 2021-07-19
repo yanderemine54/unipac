@@ -1,0 +1,13 @@
+name: unipac
+version: "0.1.0"
+author: Yanderemine54 <ymtechnologies@mail.com>
+about: A cross-platform package manager.
+subcommands:
+    - install:
+        about: installs a package
+        version: "0.1.0"
+        author: Yanderemine54 <ymtechnologies@mail.com>
+        args:
+            - yes:
+                short: y
+                help: automatically validate prompts
